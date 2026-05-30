@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pui_bg">
+
+    <View
+        android:id="@+id/ripple1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_splash_ripple" />
+
+    <View
+        android:id="@+id/ripple2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_splash_ripple" />
+
+    <ImageView
+        android:id="@+id/iv_splash_logo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_nav_circle"
+        android:padding="22dp"
+        android:src="@drawable/ic_brush_2"
+        android:tint="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_splash_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_name"
+        android:textColor="@color/pui_text"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

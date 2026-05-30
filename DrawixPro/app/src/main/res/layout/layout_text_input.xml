@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="24dp" 
+    android:clipChildren="false" 
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:id="@+id/text_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_modern_card"
+        android:padding="12dp">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="اكتب هنا..."
+            android:textColor="@color/pui_text"
+            android:textColorHint="@color/pui_text_dim"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_cancel_text"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/text_frame"
+        android:layout_alignTop="@+id/text_frame"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/bg_modern_button"
+        android:backgroundTint="@color/status_error"
+        android:padding="7dp"
+        android:src="@drawable/ic_close_square"
+        app:tint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/btn_confirm_text"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignEnd="@+id/text_frame"
+        android:layout_alignBottom="@+id/text_frame"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="-10dp"
+        android:background="@drawable/bg_modern_button"
+        android:backgroundTint="@color/status_success"
+        android:padding="7dp"
+        android:src="@drawable/ic_arrow"
+        app:tint="#FFFFFF" />
+</RelativeLayout>

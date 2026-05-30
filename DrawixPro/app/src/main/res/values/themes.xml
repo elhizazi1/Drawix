@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DrawView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/pui_bg</item>
+        <item name="android:textColorPrimary">@color/pui_text</item>
+        <item name="android:textColorSecondary">@color/pui_text_dim</item>
+        
+        <item name="colorButtonNormal">@color/pui_card</item>
+        <item name="android:statusBarColor">@color/pui_bg</item>
+        <item name="colorControlHighlight">#1A00B693</item>
+    </style>
+</resources>

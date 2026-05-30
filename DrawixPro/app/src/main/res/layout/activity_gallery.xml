@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pui_bg"
+    android:layoutDirection="locale">
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"> <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="42dp" android:layout_height="42dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/bg_glass_card"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow" 
+            android:autoMirrored="true"
+            app:tint="@color/gallery_action_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/nav_gallery"
+            android:textColor="@color/pui_text"
+            android:textSize="18sp" android:textStyle="bold" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header_layout"
+        android:paddingHorizontal="16dp" android:clipToPadding="false"
+        android:paddingBottom="100dp" /> <LinearLayout
+        android:id="@+id/layout_empty_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+        
+        <ImageView
+            android:layout_width="80dp" android:layout_height="80dp"
+            android:src="@drawable/ic_gallery"
+            app:tint="@color/pui_text_dim"
+            android:alpha="0.4"/>
+            
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/empty_gallery_text"
+            android:textColor="@color/pui_text_dim"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_bottom_nav"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:id="@+id/navBtnHome"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_nav_circle"
+            android:padding="10dp"
+            android:src="@drawable/ic_home_2"
+            android:tint="@color/pui_text_dim" />
+
+        <ImageView
+            android:id="@+id/navBtnGallery"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_nav_circle"
+            android:padding="10dp"
+            android:src="@drawable/ic_gallery"
+            android:tint="@color/colorPrimary" /> <ImageView
+            android:id="@+id/navBtnPermissions"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_nav_circle"
+            android:padding="10dp"
+            android:src="@drawable/ic_shield_security"
+            android:tint="@color/pui_text_dim" />
+
+        <ImageView
+            android:id="@+id/navBtnSettings"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/bg_nav_circle"
+            android:padding="10dp"
+            android:src="@drawable/ic_setting_2"
+            android:tint="@color/pui_text_dim" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دراويكس برو</string>
+    <string name="app_subtitle">منصة التحكم وإعدادات الشرح</string>
+    
+    <string name="tip_title">نصيحة الاستخدام الذكي</string>
+    <string name="tip_desc">يمكنك إلغاء تحديد الفرشاة من الصندوق العائم لتصفح الهاتف بحرية دون إغلاق الأداة.</string>
+    
+    <string name="service_title">الخدمة العائمة</string>
+    <string name="service_stopped">متوقفة حالياً</string>
+    <string name="service_running">تعمل الآن في الخلفية</string>
+    <string name="btn_apply">تطبيق</string>
+    
+    <string name="stats_tools_title">أدوات الرسم</string>
+    <string name="stats_tools_value">12 أداة نشطة</string>
+    <string name="stats_engine_title">جودة المحرك</string>
+    <string name="stats_engine_value">Ultra Smooth</string>
+    
+    <string name="guide_title">أدوات التوضيح المتقدمة (PRO)</string>
+    <string name="guide_laser">مؤشر الليزر الذكي والشرح التفاعلي</string>
+    <string name="guide_censor">تعتيم الشطرنج لحماية البيانات الحساسة</string>
+
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_gallery">المعرض</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_permissions">الصلاحيات</string>
+
+    <string name="settings_title">الإعدادات والتحكم</string>
+    <string name="settings_size">حجم الزر العائم (الريشة)</string>
+    <string name="settings_size_value">12px</string>
+    <string name="settings_ui_size">حجم الواجهة العائمة</string>
+    <string name="settings_ui_size_value">100%</string>
+    <string name="settings_section_sizes">أحجام الواجهة العائمة</string>
+    <string name="settings_section_drawing">أداة الرسم والزر العائم</string>
+    <string name="settings_opacity">شفافية الزر العائم</string>
+    <string name="settings_laser_mode">نمط ليزر المذنب (الافتراضي)</string>
+    <string name="settings_laser_desc">الذيل يتبع إصبعك ويختفي فوراً</string>
+    <string name="settings_laser_duration">مدة التلاشي (عند إيقاف المذنب)</string>
+    <string name="settings_seconds_unit">ثانية</string>
+    <string name="settings_section_saving">حفظ الملفات واللقطات</string>
+    <string name="settings_save_png">حفظ بصيغة PNG</string>
+    <string name="settings_save_png_desc">إلغاء التفعيل يحفظ الصور بصيغة JPEG</string>
+    <string name="settings_haptic">الاهتزاز عند اللمس</string>
+    <string name="settings_haptic_desc">تفعيل الرجوع اللمسي للزر العائم</string>
+    <string name="settings_section_preferences">تفضيلات التطبيق</string>
+    <string name="settings_language">لغة التطبيق (Language)</string>
+    <string name="settings_language_default">العربية</string>
+    <string name="settings_dark_mode">المظهر الداكن (Dark Mode)</string>
+    <string name="settings_dark_mode_desc">تفعيل الوضع الليلي المريح للعين</string>
+    <string name="settings_light_mode">المظهر الفاتح</string>
+    <string name="settings_light_mode_desc">تفعيل الوضع النهاري المشرق للعين</string>
+    <string name="settings_hide_icon">إخفاء أيقونة التطبيق</string>
+    <string name="settings_hide_icon_desc">إخفاء التطبيق من الشاشة الرئيسية (يُفتح من الإشعارات أو لوحة التحكم)</string>
+
+    <string name="default_percentage">100%</string>
+    <string name="default_seconds">2 ثانية</string>
+
+    <string name="empty_gallery_text">لا توجد لقطات شاشة بعد</string>
+    <string name="dialog_delete_title">مسح اللقطة</string>
+    <string name="dialog_delete_message">هل أنت متأكد من مسح هذه اللقطة نهائياً؟</string>
+    <string name="dialog_delete_confirm">نعم, امسح</string>
+    <string name="dialog_delete_cancel">إلغاء</string>
+    <string name="toast_delete_success">تم المسح بنجاح</string>
+    <string name="toast_delete_error">حدث خطأ أثناء المسح</string>
+    <string name="share_chooser_title">مشاركة اللقطة عبر...</string>
+    <string name="toast_share_error">فشل في فتح نافذة المشاركة</string>
+
+    <string name="permissions_title">الأمان والصلاحيات</string>
+    <string name="permissions_privacy_title">خصوصيتك أولاً</string>
+    <string name="permissions_privacy_desc">نحن نؤمن بالشفافية المطلقة. التطبيق يعمل محلياً بالكامل على هاتفك ولا يقوم بجمع، تخزين، أو إرسال أي بيانات شخصية أو شاشات إلى أي خادم خارجي.</string>
+    <string name="permissions_manage_title">إدارة الصلاحيات</string>
+    <string name="permissions_accessibility_title">إمكانية الوصول (Accessibility)</string>
+    <string name="permissions_accessibility_desc">لإظهار أدوات الرسم فوق جميع الواجهات بما فيها شريط الحالة.</string>
+    <string name="accessibility_auto_revoke_note">لضمان أمانك، يقوم نظام أندرويد الذكي بإلغاء هذه الصلاحية تلقائياً عند خمول التطبيق لفترة. هذا إجراء روتيني ممتاز لحماية هاتفك، فقط أعد تفعيلها عند الحاجة ولا تدع ذلك يزعجك!</string>
+    <string name="permissions_overlay_title">الظهور فوق التطبيقات</string>
+    <string name="permissions_overlay_desc">لإبقاء الزر العائم ظاهراً وجاهزاً للاستخدام خارج التطبيق.</string>
+    <string name="permissions_storage_title">الوصول إلى مساحة التخزين</string>
+    <string name="permissions_storage_desc">لحفظ لقطات الشاشة والرسومات في معرض هاتفك.</string>
+    <string name="permissions_notifications_title">الإشعارات الذكية</string>
+    <string name="permissions_notifications_desc">لتلقي تنبيهات عند نجاح حفظ الرسومات أو للتذكير بوجود أدوات الرسم العائمة قيد التشغيل.</string>
+    <string name="permissions_battery_title">استثناء من تحسين البطارية (هام)</string>
+    <string name="permissions_battery_desc">لمنع النظام من إيقاف الخدمة العائمة وتصوير الشاشة بشكل مفاجئ في الخلفية.</string>
+    <string name="permissions_device_note_title">ملاحظة هامة لبعض الأجهزة</string>
+    <string name="permissions_device_note_desc">رغم تفعيل الصلاحيات، قد تمنع بعض الأجهزة (مثل شاومي وأوبو) الزر العائم من الظهور فوراً بسبب أنظمة توفير الطاقة. إذا حدث ذلك، قم بعمل إيقاف إجباري للتطبيق (Force Stop) وأعد فتحه ليتم إنعاش الصلاحيات.</string>
+    <string name="permission_request">يرجى تفعيل إذن الظهور فوق التطبيقات أولاً</string>
+    <string name="accessibility_service_desc">هذا الإذن مطلوب لتمكين التطبيق من التقاط الشاشة بصمت وسرعة بناءً على طلبك.</string>
+    <string name="btn_grant_settings">الذهاب للإعدادات</string>
+    <string name="btn_grant_permission">منح الصلاحية</string>
+    <string name="btn_permission_granted">مفعلة</string>
+
+    <string name="notif_channel_name">إشعارات دراويكس الذكية</string>
+    <string name="notif_channel_desc">إشعارات التذكير والتنبيهات المساعدة</string>
+    <string name="notification_title">أداة الرسم نشطة</string>
+    <string name="notification_desc">انقر لفتح التطبيق.</string>
+    <string name="notif_screenshot_title">تم التقاط الرسمة بنجاح! 🎨</string>
+    <string name="notif_screenshot_desc">اضغط هنا لعرضها في المعرض أو مشاركتها.</string>
+    <string name="notif_retention_title">اشتقنا لإبداعك! ✨</string>
+    <string name="notif_retention_desc">أدوات الرسم العائمة جاهزة، نقرة واحدة وتبدأ بالرسم على شاشتك.</string>
+    <string name="notif_permission_title">لا تفوت ميزة الحفظ السريع! 📸</string>
+    <string name="notif_permission_desc">تفعيل صلاحية إمكانية الوصول يسمح لك بحفظ رسوماتك بضغطة زر واحدة. اضغط للتفعيل.</string>
+
+    <string name="settings_section_engine">محرك التشغيل (Core Engine)</string>
+    <string name="engine_standard_title">الوضع القياسي (Standard)</string>
+    <string name="engine_standard_desc">يعتمد على صلاحيات إمكانية الوصول. مناسب لجميع الأجهزة وبدون تعقيدات.</string>
+    <string name="engine_shizuku_title">وضع Shizuku (موصى به)</string>
+    <string name="engine_shizuku_desc">تصوير صامت وسريع جداً، وحماية مطلقة من إيقاف النظام للتطبيق في الخلفية.</string>
+    <string name="engine_root_title">وضع Root (السيطرة المطلقة)</string>
+    <string name="engine_root_desc">أداء خارق عبر أوامر النظام المباشرة، وإخفاء التطبيق بشكل جذري.</string>
+    <string name="engine_lsposed_title">وضع LSPosed (كاسر الحماية)</string>
+    <string name="engine_lsposed_desc">تخطي حماية الشاشة السوداء (FLAG_SECURE) للتصوير في أي تطبيق بنكي أو محمي.</string>
+
+    <string name="toast_engine_standard">تم تفعيل الوضع القياسي بنجاح</string>
+    <string name="toast_engine_shizuku">تم اختيار وضع Shizuku</string>
+    <string name="toast_engine_root">تم اختيار وضع Root</string>
+    <string name="toast_engine_lsposed">تم اختيار وضع LSPosed</string>
+
+    <string name="toast_shizuku_success">تم تفعيل محرك Shizuku بنجاح! \uD83D\uDE80</string>
+    <string name="toast_shizuku_denied">تم رفض الصلاحية من Shizuku</string>
+    <string name="dialog_shizuku_missing_title">Shizuku غير مفعل</string>
+    <string name="dialog_shizuku_missing_desc">يبدو أن تطبيق Shizuku غير مثبت أو غير مفعل على هاتفك. يجب تشغيله أولاً لتعمل هذه الميزة.</string>
+    <string name="toast_shizuku_unavailable">صلاحية Shizuku غير متوفرة، يرجى تفعيلها من الإعدادات</string>
+    <string name="toast_shizuku_capture_failed">فشل التقاط الصورة عبر Shizuku</string>
+    <string name="toast_shizuku_error">خطأ في Shizuku: </string>
+
+    <string name="toast_requesting_root">جاري طلب صلاحيات الروت...</string>
+    <string name="toast_root_success">تم تفعيل محرك Root بنجاح! 🔥</string>
+    <string name="dialog_root_missing_title">صلاحية الروت مفقودة</string>
+    <string name="dialog_root_missing_desc">لم نتمكن من الحصول على صلاحية الروت. تأكد من أن هاتفك مروت (Magisk / KernelSU) وأنك منحت التطبيق الصلاحية.</string>
+    <string name="toast_root_capture_failed">فشل التقاط الصورة بصلاحية Root</string>
+
+    <string name="toast_lsposed_success">تم تفعيل محرك LSPosed بنجاح! 🧩</string>
+    <string name="dialog_lsposed_missing_title">LSPosed غير مفعل</string>
+    <string name="dialog_lsposed_missing_desc">لم نتمكن من اكتشاف محرك LSPosed.\n\nيرجى التأكد من تفعيل الموديول الخاص بالتطبيق داخل مدير LSPosed، ثم قم بإعادة تشغيل الهاتف (Reboot) لتطبيق التغييرات.</string>
+
+    <string name="toast_icon_hidden">تم إخفاء الأيقونة! قد يستغرق الأمر عدة ثوانٍ ليختفي من شاشة هاتفك.</string>
+    <string name="toast_overlay_permission">يرجى تفعيل الإذن للرسم!</string>
+    <string name="toast_laser_comet">ليزر المذنب: مفعل</string>
+    <string name="toast_laser_time">تلاشي الليزر بالوقت: مفعل</string>
+    <string name="toast_accessibility_required">يرجى تفعيل \'دراويكس\' من إعدادات إمكانية الوصول لتصوير الشاشة.</string>
+    <string name="toast_error_prefix">خطأ:</string>
+    <string name="toast_unexpected_error">خطأ غير متوقع: </string>
+    <string name="toast_censor_instruction">اختر (الريشة، المربع، الدائرة) للتعتيم</string>
+    
+    <string name="error_extract_image">فشل في استخراج الصورة</string>
+    <string name="error_unknown">خطأ غير معروف</string>
+    <string name="error_system_code">رمز الخطأ من النظام: %1$d</string>
+    <string name="error_requires_android_11">هذه الميزة تتطلب أندرويد 11 فما فوق</string>
+    
+    <string name="support_section_title">دعم وتطوير المشروع</string>
+    <string name="faq_title">الأسئلة الشائعة وإرشادات الاستخدام</string>
+    <string name="faq_q1">كيف أستخدم مؤشر الليزر التفاعلي؟</string>
+    <string name="faq_a1">اختر أداة الليزر من اللوحة العائمة؛ سيتبع الذيل المضيء إصبعك ويختفي فوراً لتوجيه انتباه المشاهد.</string>
+    <string name="faq_q2">كيف أحمي البيانات الحساسة؟</string>
+    <string name="faq_a2">استخدم أداة "التعتيم" (الشطرنج) لتظليل النصوص أو الوجوه قبل التقاط الشاشة.</string>
+    <string name="faq_q3">أين يتم حفظ لقطات الشاشة؟</string>
+    <string name="faq_a3">تحفظ جميع اللقطات تلقائياً في واجهة "المعرض" داخل التطبيق.</string>
+    
+    <string name="about_section_title">الدعم والمعلومات القانونية</string>
+    <string name="about_privacy">سياسة الخصوصية</string>
+    <string name="about_terms">اتفاقية الاستخدام</string>
+    <string name="about_dev_email">مراسلة المطور: jamal@elhizazi.me</string>
+    <string name="about_dev_web">موقع المطور: jamal.elhizazi.me</string>
+    <string name="about_support">موقع الدعم: Siwane.xyz</string>
+    
+    <string name="support_email_subject">دراويكس برو - الدعم الفني</string>
+    <string name="support_email_chooser">إرسال رسالة عبر...</string>
+
+    <string name="note_info_title">معلومة تهمك</string>
+    <string name="note_info_desc">يمكنك تخصيص حجم اللوحة العائمة من الإعدادات لتناسب شاشتك تماماً.</string>
+    <string name="note_warning_title">تنبيه هام</string>
+    <string name="note_warning_desc">تصدير الصور بدقة عالية جداً قد يستهلك المزيد من مساحة التخزين في الأجهزة القديمة.</string>
+    <string name="note_error_title">خطأ في الحفظ</string>
+    <string name="note_error_desc">تعذر حفظ لقطة الشاشة. يرجى التأكد من توفر مساحة تخزين كافية في جهازك.</string>
+    <string name="note_trust_title">أمان وموثوقية (Offline)</string>
+    <string name="note_trust_desc">حمايتك هي أولويتنا؛ التطبيق يعمل بوضع عدم الاتصال بالكامل ولا يقوم بإرسال أي بيانات خارج هاتفك.</string>
+
+    <string name="tile_active_label">إيقاف الرسم</string>
+    <string name="tile_inactive_label">تفعيل الرسم</string>
+    <string name="status_active">نشط</string>
+    <string name="status_not_installed">غير متوفر</string>
+    
+        <string name="settings_community_title">ترجمات المجتمع (Community Translations)</string>
+    <string name="settings_community_warning">تحذير: عند تعديل ملف JSON، لا تقم بتغيير أو حذف المفاتيح الموجودة على اليسار أبداً. قم بترجمة النصوص الموجودة على اليمين فقط. إذا لم تعمل لغتك، تأكد من عدم مسح أي فاصلة (,) أو علامة تنصيص (\").</string>
+    <string name="btn_export_template">تنزيل قالب الترجمة (JSON)</string>
+    <string name="btn_import_language">رفع لغة جديدة</string>
+
+    <string name="toast_export_success">تم حفظ القالب بنجاح! يمكنك الآن تعديله.</string>
+    <string name="toast_export_failed">فشل حفظ الملف.</string>
+    <string name="dialog_export_title">اختر لغة القالب الأساسي</string>
+    <string name="export_option_en">قالب إنجليزي (English)</string>
+    <string name="export_option_ar">قالب عربي (Arabic)</string>
+
+    <string name="dialog_import_title">إضافة لغة جديدة</string>
+    <string name="hint_lang_name">اسم اللغة (مثال: Türkçe)</string>
+    <string name="hint_lang_code">رمز اللغة (مثال: tr)</string>
+    <string name="checkbox_rtl">هذه اللغة تُكتب من اليمين لليسار (RTL)</string>
+    <string name="btn_confirm_lang">اعتماد اللغة</string>
+    <string name="dialog_cancel">إلغاء</string>
+
+    <string name="toast_import_empty">يجب إدخال الاسم والرمز!</string>
+    <string name="toast_import_success">تم إضافة اللغة بنجاح! سيتم تفعيلها الآن.</string>
+    <string name="toast_import_failed">الملف تالف أو غير صالح للاستيراد!</string>
+    <string name="default_custom_lang">لغة مخصصة (Custom)</string>
+    
+    <string name="lsposed_description">محرك الرسم والتقاط الشاشة المتقدم (Drawix Pro)</string>
+    
+    
+</resources>

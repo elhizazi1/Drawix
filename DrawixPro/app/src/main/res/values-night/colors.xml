@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B693</color>
+    <color name="colorPrimaryDark">#009175</color>
+    <color name="colorAccent">#00B693</color>
+    <color name="pui_bg">#121214</color> 
+    
+    <color name="pui_card">#1C1C1E</color> 
+
+    <color name="pui_border">#27272A</color> 
+    <color name="pui_text">#FAFAFA</color> 
+    <color name="pui_text_dim">#A1A1AA</color> 
+    <color name="nav_glass_bg">#CC18181B</color>
+     <color name="gallery_action_bg">#80299E94</color> <color name="gallery_border">#27272A</color>
+         <color name="gallery_action_icon">#FFFFFF</color> 
+         <color name="seekbar_track_bg">#3F3F46</color>
+          <color name="nav_circle_bg">#1AFFFFFF</color>
+
+    <color name="header_icon_tint">#FFFFFF</color> <color name="divider_color">#33FFFFFF</color> <color name="seekbar_track">#3F3F46</color>
+      <color name="icon_highlight">#FFFFFF</color>
+      </resources>
