@@ -3,7 +3,7 @@
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Open Source](https://img.shields.io/badge/Open_Source-10B981?style=for-the-badge)
-![LSPosed Downloades](https://github.com/Xposed-Modules-Repo/io.github.soclear.oneuix/releases)
+![LSPosed Downloades](https://img.shields.io/badge/LSPosed-Downloads-EA4335?style=for-the-badge&logo=android&logoColor=white)
 
 
 **Drawix Pro** is a powerful, floating screen drawing and annotation platform for Android. Designed for professionals, educators, and content creators, it allows seamless on-screen interactions without interrupting your workflow.
