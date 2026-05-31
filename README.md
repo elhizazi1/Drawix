@@ -67,4 +67,4 @@ This project uses Gradle and is fully compatible with **Android Studio** as well
 
 1. Clone the repository:
 ```bash
-   git clone [[https://github.com/elhizazi1/Drawix.git](https://github.com/elhizazi1/xyz.siwane.drawix.pro.git)]([https://github.com/elhizazi1/Drawix.git](https://github.com/elhizazi1/xyz.siwane.drawix.pro.git))
+   git clone [https://github.com/elhizazi1/xyz.siwane.drawix.pro.git](https://github.com/elhizazi1/xyz.siwane.drawix.pro.git)
