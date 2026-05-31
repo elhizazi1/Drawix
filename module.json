@@ -1,0 +1,18 @@
+{
+  "name": "دراويكس برو",
+  "package": "xyz.siwane.drawix.pro",
+  "description": "محرك الرسم والتقاط الشاشة المتقدم - تجاوز حماية الشاشة السوداء عبر LSPosed مع دعم Shizuku و Root.",
+  "author": "Jamal El Hizazi",
+  "categories": ["tools", "system"],
+  "support": "https://github.com/elhizazi1/Drawix/issues",
+  "versions": [
+    {
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "release": "https://github.com/elhizazi1/Drawix/releases/download/v1.0.0/app-release-sign.apk",
+      "minApi": 27,
+      "targetApi": 33,
+      "description": "الإصدار الأول 🚀\n- دعم أوضاع التشغيل المتعددة (قياسي، Shizuku، Root، LSPosed).\n- أدوات شرح وتعتيب وفرشاة احترافية."
+    }
+  ]
+}
